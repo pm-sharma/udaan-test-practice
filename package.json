@@ -1,0 +1,30 @@
+{
+  "name": "udaan-test-practice",
+  "version": "1.0.0",
+  "description": "Udaan Practice Rest API",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.23",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pm-sharma/udaan-test-practice.git"
+  },
+  "author": "Purushottam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pm-sharma/udaan-test-practice/issues"
+  },
+  "homepage": "https://github.com/pm-sharma/udaan-test-practice#readme"
+}

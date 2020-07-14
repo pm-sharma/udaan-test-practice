@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udaan User Delete</title>
+</head>
+
+<body>
+    {{>header}}
+    
+    <form action="/users/delete" Content-Type='application/json' method="POST">
+        {{!-- <input type="text" name="name" placeholder="name"/> --}}
+        <input type="email" name="email" placeholder="email"/>
+        <input type="submit" value="Delete User" />
+    </form>
+
+    {{!-- Show message for deletion --}}
+    {{#if userEmail}}
+    <h3>Deleted user with email {{userEmail}}</h3>
+    {{/if}}
+</body>
+
+</html>
